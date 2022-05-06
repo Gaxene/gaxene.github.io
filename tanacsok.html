@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/tacskok.css" title="normal">
+    <script src="scriptek/totop.js"></script>
+    <title>Tanácsok - Tacskók weblap</title>
+</head>
+<body>
+    <nav class="kipozicional">
+        <a href="#tartalom">Ugrás a tartalomra</a>
+    </nav>
+    <header>
+        <h1>Tacskók</h1>
+        <a href="kepek/logo.png"><img src="kepek/small-logo.png" alt="weblap logója"/></a>
+        <div>
+            <button class="ikon" onclick="toggleTheme()"></button>
+        </div>
+        <form>
+            <button formaction="index.html">Főoldal</button>
+            <button formaction="fajtak.html">Fajták</button>
+            <button formaction="tortenelem.html">Történelmi háttér</button>
+            <button class="jelenlegi">Tanácsok</button>
+        </form>  
+    </header>
+
+    <main id="tartalom">
+        <h1>Tanácsok</h1>
+        <article>
+            <div class="background">
+                <h2>A tacskók nevelése</h2>
+                <p>
+                    <a href="kepek/babatacsko.jpg"><img class="right" src="kepek/small-babatacsko.jpg" alt="kölyök tacskóról készült kép"></a>
+                    A kölyök tacsik esetében az <i>első hat hónap</i> folyamatos, napi szintű tanítással, gyakorlással és a kötödés kialakításával kell teljen. 
+                    Nem szabad elhanyagolni, halogatni, mivel még könnyedén formálhatjuk, alakíthatjuk őket.
+                    Folyamatos tanulásnak kell következnie a kis ebbel, hiszen a kutya fejlődésével <i>más-más szakaszok, problémák, megoldandó feladatok</i> lépnek be 
+                    az életünkbe. Reménytelennek tűnő helyzetek, lassú haladás érzése van az embernek, amikor kölyökkutyát nevel. 
+                    Olyan jó lenne, ha a kutya mindent tudna, csak öröm lenne minden együtt töltött idő. 
+                </p>
+
+                <p>
+                    Mivel elég népszerű kutyafajtáról van szó, így rengetegen is tenyésztik őket, csak sajnos nem mindenkit a jószándék vezérel. Sokan csak a pénzt látják ezekben a kutyusokban, 
+                    így nem fordítanak <strong>kellő figyelmet</strong> és <strong>energiát</strong> rájuk. Az elhanyagolt kutyusoknál pedig gyakorik a <i>viselkedés problémák</i> és a <i>megbetegedések</i> is. <strong>Keress egy megbízható tenyésztőt!</strong>
+                </p>
+            </div>
+        </article>
+
+        <article>
+            <h2 class="center2">Videó</h2>
+            <div>
+                <figure>
+                    <video class="lejebb" controls poster="kepek/index2.PNG">
+                        <source src="videok/kolyokkutya.mp4" type="video/mp4">
+                        <p>A böngésző nem támogatja az adott file formátumot.</p>
+                        <a href="videok/kolyokkutya.mp4">Itt töltheted le a filet.</a>
+                    </video>
+                    <figcaption>Videó a leendő tacsigazdiknak</figcaption>
+                </figure>
+            </div>
+        </article>
+
+        <article>
+            <div class="background">
+            <h2>Videó leírása</h2>
+            <p>
+                A videóban egy hölgyet láthatunk, ahogy éppen egy kölyök tacskót igyekszik tanítani jutalomfalatokkal. 
+                A videóból is látható, hogy a mindennapi feladatok tanulásához, a problémamentes együttéléshez szükség van a kutya <i>helyes jellemének</i>
+                 felismeréséhez, ezért elengedhetetlen a <strong>szocializáció</strong>, valamint a <strong>bizalmon</strong> és a <strong>szoros kötődésen</strong> alapuló feltétlen engedelmesség.
+            </p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="footerform">
+            <button onclick="toTop()" class="vissza">Tetejére</button>
+        </div>
+    </footer>
+    
+</body>
+</html>

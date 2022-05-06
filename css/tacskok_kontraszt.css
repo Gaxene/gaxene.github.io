@@ -1,0 +1,783 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two';
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(83, 83, 83);
+	background-image:url('../kepek/tacskok1.png'), url('../kepek/tacskok2.png');
+	background-repeat:repeat-y, repeat-y;
+	background-position: left, right;
+}
+
+header, main, footer, div.main, div.footer, div.header {
+	width:80%;
+	min-width:400px;
+	max-width:1500px;
+	margin-left:auto;	
+	margin-right:auto;
+	margin-top:0;
+	margin-bottom:0;
+	background-color: rgb(0, 0, 0);
+	padding:10px;
+}
+
+.kipozicional a {position:absolute; left:-9999px;}
+.kipozicional a:focus {position:static; background:white}
+
+/* HEADER CUCCAI */
+
+header, div.header {
+    opacity: 0.7;
+}
+
+header, div.header {
+	background-color:rgb(255, 255, 255);
+    width: 80%;
+    height: 250px;
+	border-radius: 10px 10px 0 0 ;
+	margin-top: 20px;
+	padding-bottom:0;
+	position:relative;
+}
+
+header div, div.ikon {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1, h1.fejlec {
+	font-family: 'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 3px #060101, 4px 4px 0px rgba(0, 0, 0, 0.386);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 5.55em;
+    color:rgb(246, 255, 0);
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+button.ikon {
+    background-image: url("../kepek/ikonkontrasztos.PNG");
+	background-size: 100%;
+    border-radius: 12px 12px 12px 12px;
+    width: 150px;
+    height: 50px;
+	background-position: center;
+	border: 0;
+	cursor: pointer;
+    background-repeat:no-repeat;
+}
+
+header img, img.fejlec {
+	width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 25px;
+}
+
+header form, div.form {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+header button, header button.jelenlegi, button.fejlec, button.jelenlegi {
+    width: 300px;
+    height: 80px;
+    border: 3px solid;
+    border-color: rgb(246, 255, 0);
+    border-radius: 12px 12px 0 0;
+    color: rgb(246, 255, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2em;
+    cursor: pointer;
+    background-color: rgb(84, 81, 81);
+    float: left;
+}
+header button.jelenlegi, button.jelenlegi {
+	text-decoration:underline;
+    background-color: rgb(0, 0, 0);
+}
+
+header button:hover, button.fejlec:hover {
+    text-decoration:underline;
+}
+
+/* MAIN CUCCAI */
+
+main h1, h1.main {
+	font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 0px #595959, 4px 4px 0px rgba(0, 0, 0, 0.386);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 4em;
+    color:rgb(246, 255, 0);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main article, div.article {
+	margin:0 2em;
+	padding-bottom:20px;
+	overflow:hidden; 				
+}
+
+main article h2, h2.main {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 0px #515151;
+    text-align: left;
+    font-size: 3.2em;
+    color:rgb(246, 255, 0);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    padding-left: 10px;
+}
+
+h2.center, h2.center2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(246, 255, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.2em;
+    padding-bottom: 0;
+}
+
+main article p {
+	font-family: 'Times New Roman', Times, serif;
+    color:rgb(246, 255, 0);
+    font-size: 2.3em;
+    padding-top: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p.main {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(246, 255, 0);
+    font-size: 2.3em;
+    padding-top: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main article img.right, img.mainright {
+	float:right;
+    width: 25%;
+    height: 25%;
+    border-radius: 15px;
+	border: 6px solid;
+	margin-left: 30px;
+}
+
+main article img.left, img.mainleft {
+	float:left;
+    width: 25%;
+    height: 25%;
+    border-radius: 15px;
+	border: 6px solid;
+	margin-right: 30px;
+}
+
+main div {
+    text-align: center;
+}
+
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+  
+  td, th {
+    border: 3px solid rgb(246, 255, 0);
+    text-align: center;
+    color: rgb(246, 255, 0);
+    font-size: 1.6em;
+    padding: 8px;
+}
+
+  tr:nth-child(odd) {
+    background-color: #7f7f7fc7;
+}
+  
+  tr:nth-child(even) {
+    background-color: #000000;
+}
+
+p.kozep {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+img.kozepreverse {
+    width: 25%;
+    height: 25%;
+    transform: rotate(-20deg);
+    filter: invert(1);
+}
+
+img.kozep {
+    width: 25%;
+    height: 25%;
+    transform: rotate(20deg);
+    filter: invert(1);
+}
+
+video {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid rgb(246, 255, 0);
+}
+
+figcaption {
+    font-size: 1.8em;
+    font-family: 'Trebuchet MS', sans-serif;
+    color:rgb(246, 255, 0);
+}
+
+p.kozep2 {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+input {
+    background-color: #000000;
+    border: 6px solid rgb(246, 255, 0);
+    color: rgb(246, 255, 0);
+    font-size: 0.8em;
+}
+
+legend {
+    font-size: 1.6em;
+    color:rgb(246, 255, 0);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    color: rgb(246, 255, 0);
+}
+
+a:link {
+    color:rgb(246, 255, 0);
+}
+a:visited {
+    color: rgb(146, 147, 134);
+}
+
+caption {
+    font-family: 'Trebuchet MS', sans-serif;
+    caption-side: bottom;	
+    color:rgb(246, 255, 0);
+    font-size: 2em;
+    border-radius:0 0 5px 5px;
+    border: 1px solid rgb(246, 255, 0);
+}
+
+p.details {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 0.8em;
+}
+
+aside {
+    margin-left: auto;
+    margin-right: auto;
+    width:38%;
+    border:1px solid rgb(246, 255, 0);	
+    background-color:rgb(86, 86, 83);
+    padding:10px;
+    border-radius:5px;
+}
+
+p.kicsi {
+    color: rgb(246, 255, 0);
+    font-size: 2em;
+}
+
+p.column {
+    column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	column-gap: 30px;
+}
+
+img.column {
+	float:left;
+    width: 52%;
+    height: 52%;
+    border-radius: 15px;
+	border: 6px solid;
+	margin-right: 30px;
+}
+
+/* FOOTER CUCCAI */
+
+footer, div.footer  {
+	border-radius: 0 0 10px 10px;
+	margin-bottom: 20px;
+    text-align: center;
+}
+
+div.footerform {
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+button.vissza {
+	background-image: url("../kepek/yellowpaw.png");
+	background-size: 190%;
+	width: 130px;
+	height: 130px;
+	background-color: transparent;
+	background-position: center;
+	border: 0;
+    font-size: 0;
+	cursor: pointer;
+}
+
+@media print {
+
+    body, main {
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 0cm;
+    }
+    
+    header, main, footer {
+        width:100%;
+        padding:0;
+    }
+
+    h2.center2, header, div.header, header h1, h1.fejlec, header button, header button.jelenlegi, button.fejlec, button.jelenlegi, header img, img.fejlec {display:none;}
+
+    a.nodisplay, img.kozepreverse, img.kozep, caption, video, figcaption, footer, div.footer, fieldset, div.urlap {display: none;}
+
+    main h1, main article h2, h1.main, h2.main, table {
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;
+    }
+
+    main h1, h1.main {
+        border: none;
+        text-shadow: none;
+        font-size: 2.3em;
+        margin-bottom: 0;
+    }
+
+    main article h2, h2.main, h2.center {
+        font-size: 2em;
+        text-decoration: none;
+        text-shadow: none;
+        color:#000000;
+    }
+
+    h3 {
+        font-size: 1.8em;
+        text-shadow: none;
+        color:#000000;
+    }
+
+    main article p, p.main, p.column {
+        font-size: 1.2em;
+        color:#000000;
+    }
+
+    li {font-size: 0.5em;}
+    
+    a.display {color: #000000;}
+    a.display:after { content: " (" attr(href) ")";}
+
+    article.break {page-break-before:always;}
+
+    aside {
+        box-shadow: none; 
+        width: 60%;
+        display: block;
+        margin-left: 18%;
+        margin-right: 18%;
+        border: 1px solid black;
+    }
+
+    p.kicsi {
+        color:#000000;
+        font-size: 1.4em;
+    }
+
+    td, th {
+        color: #000000;
+        border-color: #000000;
+    }
+
+    main div.background, div.background {
+        background-color: transparent;
+        border-radius:0;
+        box-shadow:none;
+        padding-bottom: 0;
+        margin-right: 0;
+    }
+
+    div.background2 {
+        background-color: transparent;
+        border-radius:0;
+        box-shadow:none;
+        padding-bottom: 0;
+        margin-right: 0;
+    }
+
+    img.column {
+        float:left;
+        width: 50%;
+        height: 50%;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+
+    main article h2, h2.main {
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;
+        text-decoration: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    main article, div.article {
+        padding-bottom:20px;
+        overflow:hidden; 				
+    }
+
+    p.column {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+
+    main article img.right, img.mainright {
+        width: 40%;
+        height: 40%;
+        border-color: #000000;
+    }
+
+    main article img.left, img.mainleft {
+        width: 40%;
+        height: 40%;
+        border-color: #000000;
+    }
+}
+
+@media screen and (max-width: 700px) 
+{
+    body {
+        background-image: none;
+    }
+
+    header img, img.fejlec { display: none;}
+
+    header form, div.form {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    header h1, h1.fejlec {
+        font-size: 4.3em;
+    }
+
+    header button, header button.jelenlegi, button.fejlec, button.jelenlegi {
+        width: 105px;
+        height: 60px;
+        border: 3px solid;
+        border-color: rgb(246, 255, 0);
+        border-radius: 12px 12px 0 0;
+        color: rgb(246, 255, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        cursor: pointer;
+        background-color: rgb(81, 80, 80);
+        opacity: 0.8;
+        float: left;
+    }
+
+    header button.jelenlegi, button.jelenlegi {
+        background-color: rgb(0, 0, 0);
+        opacity: 1;
+        text-decoration:underline;
+    }
+    
+    header button:hover, button.fejlec:hover {
+        opacity:1;
+        text-decoration:underline;
+    }
+
+    main article img.right, img.mainright {
+        float:none;
+        width: 70%;
+        height: 70%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-bottom: 60px;
+        margin-left: 13%;
+        margin-right: 20%;
+    }
+    
+    main article img.left, img.mainleft {
+        float:none;
+        width: 70%;
+        height: 70%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-bottom: 60px;
+        margin-left: 13%;
+        margin-right: 20%;
+    }
+
+    main article p, p.main {
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(246, 255, 0);
+        font-size: 28px;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    video {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(246, 255, 0);
+    }
+
+    img.kozepreverse {
+        width: 50%;
+        height: 50%;
+        transform: rotate(-20deg);
+    }
+    
+    img.kozep {
+        width: 50%;
+        height: 50%;
+        transform: rotate(20deg);
+    }
+
+    main article h2, h2.main {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    main h1, h1.main {
+        font-size: 3.3em;
+    }
+
+    button.vissza {
+        width: 115px;
+        height: 115px;
+        font-size: 0;
+    }
+
+    p.column {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+
+    img.column {
+        float:none;
+        width: 70%;
+        height: 70%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-bottom: 60px;
+        margin-left: 13%;
+        margin-right: 20%;
+    }
+
+    table {
+        width: 18%;
+        font-size: 0.8em;
+    }
+
+    aside {
+        width:80%;
+    }
+
+    p.kicsi {
+        font-size: 1.2em;
+    }
+
+    li {font-size: 0.6em;}
+
+    input {
+        font-size: 0.3em;
+    }
+
+    input[type=submit], input[type=reset] {
+        font-size: 1em;
+        border: 2px solid yellow;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1350px) 
+{
+    body {
+        background-image:url('../kepek/tacskok1_pici.png'), url('../kepek/tacskok2_pici.png');
+    }
+
+    header img, img.fejlec {
+        width: 20%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-top: 25px;
+    }
+
+    header form, div.form {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    header h1, h1.fejlec {
+        font-size: 4.6em;
+    }
+
+    header button, header button.jelenlegi, button.fejlec, button.jelenlegi {
+        width: 105px;
+        height: 60px;
+        border: 3px solid;
+        border-color: rgb(246, 255, 0);
+        border-radius: 12px 12px 0 0;
+        color: rgb(246, 255, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        cursor: pointer;
+        background-color: rgb(81, 80, 80);
+        opacity: 0.8;
+        float: left;
+    }
+
+    header button.jelenlegi, button.jelenlegi {
+        background-color: rgb(0, 0, 0);
+        opacity: 1;
+        text-decoration:underline;
+    }
+    
+    header button:hover, button.fejlec:hover {
+        opacity:1;
+        text-decoration:underline;
+    }
+
+    main article img.right, img.mainright {
+        float:none;
+        width: 70%;
+        height: 70%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-bottom: 60px;
+        margin-left: 13%;
+        margin-right: 20%;
+    }
+    
+    main article img.left, img.mainleft {
+        float:none;
+        width: 70%;
+        height: 70%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-bottom: 60px;
+        margin-left: 13%;
+        margin-right: 20%;
+    }
+
+    main article p, p.main {
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(246, 255, 0);
+        font-size: 1.8em;
+        padding-top: 20px;
+        text-align: justify;
+    }
+
+    video {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid rgb(246, 255, 0);
+    }
+
+    img.kozepreverse {
+        width: 50%;
+        height: 50%;
+        transform: rotate(-20deg);
+    }
+    
+    img.kozep {
+        width: 50%;
+        height: 50%;
+        transform: rotate(20deg);
+    }
+
+    main article h2, h2.main {
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 2.1em;
+    }
+
+    main h1, h1.main {
+        font-size: 3.5em;
+    }
+
+    button.vissza {
+        width: 115px;
+        height: 115px;
+        font-size: 0;
+    }
+
+    ul {
+        font-size: 2em;
+    }
+
+    img.column {
+        float:left;
+        width: 95%;
+        height: 95%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-right: 30px;
+    }
+
+    aside {
+        width:70%;
+    }
+
+    p.kicsi {font-size: 1.7em;}
+
+    li {font-size: 1em;}
+
+    input {
+        font-size: 0.5em;
+    }
+
+    input[type=submit], input[type=reset] {
+        font-size: 0.8em;
+        border: 3px solid yellow;
+    }  
+}

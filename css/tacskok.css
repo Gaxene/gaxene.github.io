@@ -1,0 +1,758 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two';
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(125, 113, 200);
+	background-image:url('../kepek/tacskok1.png'), url('../kepek/tacskok2.png');
+	background-repeat:repeat-y, repeat-y;
+	background-position: left, right;
+}
+
+header, main, footer, div.main, div.footer, div.header {
+	width:80%;
+	min-width:400px;
+	max-width:1500px;
+	margin-left:auto;	
+	margin-right:auto;
+	margin-top:0;
+	margin-bottom:0;
+	background-color: rgb(137, 70, 154);
+	padding:10px;
+}
+
+.kipozicional a {position:absolute; left:-9999px;}
+.kipozicional a:focus {position:static; background:white}
+
+/* HEADER CUCCAI */
+
+header, div.header {
+	background-image:url('../kepek/headerfinal.png');
+    height: 250px;
+	border-radius: 10px 10px 0 0 ;
+	margin-top: 20px;
+	padding-bottom:0;
+	position:relative;
+}
+
+header div, div.ikon {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1, h1.fejlec {
+	font-family: 'Lobster Two', Helvetica, cursive;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.386);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4.5em;
+    color:rgb(187, 130, 213);
+    background-color: #000000;
+    border-radius: 10px 10px 10px 10px;
+    width: 20%;
+	height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button.ikon {
+    background-image: url("../kepek/ikonkontrasztos.PNG");
+	background-size: 100%;
+    border-radius: 12px 12px 12px 12px;
+    width: 150px;
+    height: 50px;
+	background-position: center;
+	border: 0;
+	cursor: pointer;
+    background-repeat:no-repeat;
+    opacity: 0.8;
+}
+
+header img, img.fejlec {
+	width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: 25px;
+}
+
+header form, div.form {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+header button, header button.jelenlegi, button.fejlec, button.jelenlegi {
+    width: 200px;
+    height: 50px;
+    border: 3px solid;
+    border-color: rgb(149, 78, 11);
+    border-radius: 12px 12px 0 0;
+    color: rgb(149, 78, 11);
+    font-family:'Lobster Two', Helvetica, cursive;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: white;
+    opacity: 0.8;
+    float: left;
+}
+header button.jelenlegi, button.jelenlegi {
+	background-color: rgb(218, 158, 116);
+	opacity: 1;
+	text-decoration:underline;
+}
+
+header button:hover, button.fejlec:hover, button.ikon:hover {
+    opacity:1;
+    text-decoration:underline;
+}
+
+/* MAIN CUCCAI */
+
+main h1, h1.main {
+	font-family: 'Lobster Two', Helvetica, cursive;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.386);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 3em;
+    color:rgb(85, 28, 78);
+    background-color: rgb(213, 186, 213);
+    border-radius:5px;
+    border: 2px solid #420c0c;
+    width: 14%;
+	height: 90px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main h1.ver2 {
+    width: 12%;
+	height: 80px;
+}
+
+main h1.ver3 {
+    width: 30%;
+	height: 90px;
+}
+
+main h1.ver4 {
+    width: 40%;
+	height: 90px;
+}
+
+main article, div.article {
+	margin:0 2em;
+	padding-bottom:20px;
+	overflow:hidden; 				
+}
+
+main article h2, h2.main {
+	font-family: 'Lobster Two', Helvetica, cursive;
+    text-shadow: 1px 1px 0px #ededed;
+    text-align: left;
+    font-size: 2.5em;
+    color:rgb(85, 28, 78);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    padding-left: 10px;
+}
+
+h2.center, h2.center2 {
+    text-align: center;
+    color: rgb(213, 186, 213);
+    text-shadow: 1px 1px 0px rgb(48, 5, 43);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(213, 186, 213);
+    text-shadow: 1px 1px 0px rgb(48, 5, 43);
+    font-family: 'Lobster Two', Helvetica, cursive;
+    font-size: 1.8em;
+    padding-bottom: 0;
+}
+
+main article p, p.main {
+	font-family: 'Times New Roman', Times, serif;
+    color:rgb(48, 5, 43);
+    font-size: 2em;
+    padding-top: 20px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p.column {
+    column-count: 2;
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+	column-gap: 30px;
+}
+
+main article img.right, img.mainright {
+	float:right;
+    width: 25%;
+    height: 25%;
+    border-radius: 15px;
+	border: 6px solid;
+	margin-left: 30px;
+}
+
+main article img.left, img.mainleft {
+	float:left;
+    width: 25%;
+    height: 25%;
+    border-radius: 15px;
+	border: 6px solid;
+	margin-right: 30px;
+}
+
+main div {
+    text-align: center;
+}
+
+main div.background, div.background {
+    background-color: rgb(213, 186, 213);
+    border-radius:5px;
+    box-shadow:10px 10px 5px rgb(163, 131, 163);
+    padding-bottom: 20px;
+    margin-right: 10px;
+}
+
+div.background2 {
+    background-color: rgb(213, 186, 213);
+    border-radius:5px;
+    box-shadow:10px 10px 5px rgb(163, 131, 163);
+    padding-bottom: 120px;
+    margin-right: 10px;
+}
+
+table {
+    font-family: 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+    color:rgb(85, 28, 78);
+    font-size: 1.3em;
+}
+  
+  td, th {
+    border: 3px solid #420c0c;
+    text-align: center;
+    padding: 8px;
+}
+
+  tr:nth-child(odd) {
+    background-color: #d87070c7;
+}
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+p.kozep {
+    text-align: center;
+}
+
+img.kozepreverse {
+    width: 25%;
+    height: 25%;
+    transform: rotate(-20deg);
+}
+
+img.kozep {
+    width: 25%;
+    height: 25%;
+    transform: rotate(20deg);
+}
+
+video {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #420c0c;
+}
+
+figcaption {
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', sans-serif;
+    color:rgb(227, 201, 224);
+}
+
+p.kozep2 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+ul {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    color: rgb(85, 28, 78);
+}
+
+a:link {
+    color:rgb(157, 6, 140);
+}
+a:visited {
+    color: rgb(171, 115, 165);
+}
+
+caption {
+    font-family: 'Trebuchet MS', sans-serif;
+    caption-side: bottom;	
+    color:rgb(85, 28, 78);
+    font-size: 1.4em;
+    background-color: rgb(213, 186, 213);
+    border-radius:0 0 5px 5px;
+    border: 1px solid #420c0c;
+}
+
+p.details {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 0.8em;
+}
+
+legend {
+    font-size: 1.5em;
+    color:rgb(85, 28, 78);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+aside {
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    border:1px solid #999;
+    background-color:rgb(210, 137, 210);
+    padding:10px;
+    border-radius:5px;
+    box-shadow:10px 10px 5px rgb(113, 76, 113);
+}
+
+p.kicsi {
+    font-size: 1.3em;
+}
+
+img.column {
+	float:left;
+    width: 52%;
+    height: 52%;
+    border-radius: 15px;
+	border: 6px solid;
+	margin-right: 30px;
+}
+
+/* FOOTER CUCCAI */
+
+footer, div.footer  {
+	border-radius: 0 0 10px 10px;
+	margin-bottom: 20px;
+    opacity:0.7;
+    text-align: center;
+}
+
+div.footerform {
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+button.vissza {
+	background-image: url("../kepek/paw.png");
+	background-size: 190%;
+    width: 100px;	
+	height: 100px;
+	background-color: transparent;
+	color: rgb(229, 196, 166);
+	background-position: center;
+	border: 0;
+	cursor: pointer;
+	font-size: 25px;
+	font-family: 'Lobster Two', Helvetica, cursive;
+	text-align: center;
+	text-decoration:underline;
+}
+
+@media print {
+
+    body, main {
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 0cm;
+    }
+    
+    header, main, footer {
+        width:100%;
+        padding:0;
+    }
+
+    h2.center2, header, div.header, header h1, h1.fejlec, header button, header button.jelenlegi, button.fejlec, button.jelenlegi, header img, img.fejlec {display:none;}
+
+    a.nodisplay, img.kozepreverse, img.kozep, caption, video, figcaption, footer, div.footer, fieldset, div.urlap {display: none;}
+
+    main h1, main article h2, h1.main, h2.main, table {
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;
+    }
+
+    main h1, h1.main {
+        border: none;
+        text-shadow: none;
+        font-size: 2.3em;
+        margin-bottom: 0;
+    }
+
+    main article h2, h2.main, h2.center {
+        text-shadow: none;
+        font-size: 2em;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.8em;
+        text-shadow: none;
+    }
+
+    main article p, p.main, p.column {
+        font-size: 1.2em;
+        color:#000000;
+    }
+
+    li {font-size: 1em;}
+    
+    a.display {color: #000000;}
+    a.display:after { content: " (" attr(href) ")";}
+
+    article.break {page-break-before:always;}
+
+    aside {
+        box-shadow: none; 
+        width: 60%;
+        display: block;
+        margin-left: 30%;
+        margin-right: 18%;
+    }
+
+    main div.background, div.background {
+        background-color: transparent;
+        border-radius:0;
+        box-shadow:none;
+        padding-bottom: 0;
+        margin-right: 0;
+    }
+
+    div.background2 {
+        background-color: transparent;
+        border-radius:0;
+        box-shadow:none;
+        padding-bottom: 0;
+        margin-right: 0;
+    }
+
+    img.column {
+        float:left;
+        width: 50%;
+        height: 50%;
+        border-radius: 15px;
+        border: 3px solid black;
+    }
+
+    main article h2, h2.main {
+        font-family: 'Times New Roman', Times, serif;
+        color: #000000;
+        text-decoration: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    main article, div.article {
+        padding-bottom:20px;
+        overflow:hidden; 				
+    }
+
+    p.column {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+
+    main article img.right, img.mainright {
+        width: 40%;
+        height: 40%;
+        border-color: #000000;
+    }
+
+    main article img.left, img.mainleft {
+        width: 40%;
+        height: 40%;
+        border-color: #000000;
+    }
+}
+
+@media screen and (max-width: 700px) 
+{
+    body {
+        background-image: none;
+    }
+
+    header img, img.fejlec { display: none;}
+
+    header form, div.form {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    header h1, h1.fejlec {
+        font-size: 3.5em;
+        width: 48%;
+	    height: 100px;
+    }
+
+    button.ikon {
+        background-size: 100%;
+        width: 105px;
+    }
+
+    header button, header button.jelenlegi, button.fejlec, button.jelenlegi {
+        width: 105px;
+        height: 60px;
+        border: 3px solid;
+        border-color: rgb(149, 78, 11);
+        border-radius: 12px 12px 0 0;
+        color: rgb(149, 78, 11);
+        font-family:'Lobster Two', Helvetica, cursive;
+        font-size: 1.1em;
+        cursor: pointer;
+        background-color: white;
+        opacity: 0.8;
+        float: left;
+    }
+
+    header button.jelenlegi, button.jelenlegi {
+        background-color: rgb(218, 158, 116);
+        opacity: 1;
+        text-decoration:underline;
+    }
+    
+    header button:hover, button.fejlec:hover {
+        opacity:1;
+        text-decoration:underline;
+    }
+
+    main article img.right, img.mainright, main article img.left, img.mainleft {
+        float:none;
+        width: 70%;
+        height: 70%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-bottom: 60px;
+        margin-left: 13%;
+        margin-right: 20%;
+    }
+
+    main article p, p.main {
+        font-size: 1.3em;
+        padding-top: 20px;
+    }
+
+    video {width: 100%;}
+
+    img.kozepreverse, img.kozep {
+        width: 50%;
+        height: 50%;
+    }
+
+    main article h2, h2.main {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.8em;
+    }
+
+    main h1, h1.main {
+        font-size: 2.3em;
+        width: 40%;
+        height: 70px;
+    }
+    
+    main h1.ver2 {
+        width: 30%;
+        height: 70px;
+    }
+    
+    main h1.ver3 {
+        width: 63%;
+        height: 70px;
+    }
+
+    main h1.ver4 {
+        width: 65%;
+        height: 70px;
+        font-size: 1.9em;
+    }
+
+    ul {
+        font-size: 1em;
+    }
+
+    li {
+        font-size: 1.3em;
+    }
+
+    p.column {
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+    }
+
+    img.column {
+        float:left;
+        width: 60%;
+        height: 60%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-left: 18%;
+        margin-right: 20%;
+        margin-bottom: 10px;
+    }
+
+    
+    table {
+        width: 10%;
+        font-size: 1em;
+    }
+
+    aside {
+        width:80%;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1350px) 
+{
+    body {
+        background-image:url('../kepek/tacskok1_pici.png'), url('../kepek/tacskok2_pici.png');
+    }
+
+    header img, img.fejlec {
+        width: 20%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-top: 25px;
+    }
+
+    header form, div.form {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    header h1, h1.fejlec {
+        font-size: 4em;
+        width: 40%;
+    }
+
+    header button, header button.jelenlegi, button.fejlec, button.jelenlegi {
+        width: 115px;
+        height: 60px;
+        border: 3px solid;
+        border-color: rgb(149, 78, 11);
+        border-radius: 12px 12px 0 0;
+        color: rgb(149, 78, 11);
+        font-family:'Lobster Two', Helvetica, cursive;
+        font-size: 1.25em;
+        cursor: pointer;
+        background-color: white;
+        opacity: 0.8;
+        float: left;
+    }
+
+    header button.jelenlegi, button.jelenlegi {
+        background-color: rgb(218, 158, 116);
+        opacity: 1;
+        text-decoration:underline;
+    }
+    
+    header button:hover, button.fejlec:hover {
+        opacity:1;
+        text-decoration:underline;
+    }
+
+    main article img.right, img.mainright, main article img.left, img.mainleft  {
+        float:none;
+        width: 60%;
+        height: 60%;
+        margin-bottom: 60px;
+        margin-left: 18%;
+        margin-right: 20%;
+    }
+
+    main article p, p.main {
+        font-size: 1.7em;
+    }
+
+    video {width: 100%;}
+
+    img.kozepreverse, img.kozep {
+        width: 50%;
+        height: 50%;
+    }
+
+    main article h2, h2.main {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.9em;
+    }
+
+    main h1, h1.main {
+        font-size: 2.3em;
+        width: 22%;
+        height: 70px;
+    }
+    
+    main h1.ver2 {
+        width: 21%;
+        height: 70px;
+    }
+    
+    main h1.ver3 {
+        width: 45%;
+        height: 70px;
+    }
+
+    main h1.ver4 {
+        width: 60%;
+        height: 70px;
+    }
+
+    ul {
+        font-size: 1.8em;
+    }
+
+    img.column {
+        float:left;
+        width: 95%;
+        height: 95%;
+        border-radius: 15px;
+        border: 6px solid;
+        margin-right: 30px;
+    }
+
+    aside {
+        width:60%;
+    }
+}
+
